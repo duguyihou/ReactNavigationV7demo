@@ -6,12 +6,19 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
-    "start": "react-native start",
+    "start": "react-native start --reset-cache",
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "next",
+    "@react-navigation/elements": "next",
+    "@react-navigation/native": "next",
+    "@react-navigation/native-stack": "next",
     "react": "18.3.1",
-    "react-native": "0.75.4"
+    "react-native": "0.75.4",
+    "react-native-safe-area-context": "^4.11.1",
+    "react-native-screens": "^3.34.0",
+    "react-native-turbo-image": "^1.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
